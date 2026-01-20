@@ -9,19 +9,17 @@
 </head>
 <body>
     <div class="container">
-        <form action="" id="form-add-todo">
+        <form id="form-add-todo">
             <input type="text" name="task" id="input-add-todo">
-            <button onclick="addToDo()">+</button>
+            <button>+</button>
         </form>
     
         <ul id="todo-list">
-            <li><input type="checkbox"><span>Task 1</span></li>
-            <li><input type="checkbox"><span>Task 2</span></li>
-            <li><input type="checkbox"><span>Task 3</span></li>
+            <li><input type="checkbox" onclick="concluirTarefa(this)"/><span>Task 1</span></li>
         </ul>
     </div>
 
-    <script>
+    <!--<script>
         /*
         let newTaskInput = document.getElementById('input');
         let newTaskBtn = document.getElementById('btn');
@@ -35,6 +33,6 @@
 
         newTaskBtn.addEventListener("click", addTask())
         */
-    </script>
+    </script>-->
 </body>
 </html>
